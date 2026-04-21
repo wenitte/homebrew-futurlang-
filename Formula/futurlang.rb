@@ -4,7 +4,7 @@ class Futurlang < Formula
   url "https://registry.npmjs.org/futurlang/-/futurlang-1.0.0.tgz"
   # Update sha256 after `npm publish` by running:
   #   curl -sL <url> | shasum -a 256
-  sha256 "0000000000000000000000000000000000000000000000000000000000000000"
+  sha256 "672d4abdd7929381f0c8862145484b52ba799c4554f57dfdc83e9c5285d381e9"
   license "MIT"
 
   depends_on "node"
