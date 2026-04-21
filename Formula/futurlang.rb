@@ -8,8 +8,7 @@ class Futurlang < Formula
   depends_on "node"
 
   def install
-    system "npm", "install", *Language::Node.std_npm_install_args(libexec)
-    bin.install_symlink Dir["#{libexec}/bin/*"]
+    system "npm", "install", "-g", "--prefix", prefix, "futurlang@#{version}"
   end
 
   def caveats
