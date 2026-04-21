@@ -1,10 +1,8 @@
 class Futurlang < Formula
   desc "Proof-oriented programming language with a categorical kernel"
   homepage "https://github.com/wenitte/futurlang"
-  url "https://registry.npmjs.org/futurlang/-/futurlang-1.0.0.tgz"
-  # Update sha256 after `npm publish` by running:
-  #   curl -sL <url> | shasum -a 256
-  sha256 "672d4abdd7929381f0c8862145484b52ba799c4554f57dfdc83e9c5285d381e9"
+  url "https://registry.npmjs.org/futurlang/-/futurlang-1.0.2.tgz"
+  sha256 "cce61f3666265a37daf274d2fe99fb309b02ed2f0b14471dfe6b55ca15679e73"
   license "MIT"
 
   depends_on "node"

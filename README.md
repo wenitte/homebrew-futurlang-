@@ -1,11 +1,11 @@
-# homebrew-futurlang
+# homebrew-futurlang-
 
-Homebrew tap for [FuturLang](https://github.com/WenitteApiou/futurlang) — a proof-oriented programming language.
+Homebrew tap for [FuturLang](https://github.com/wenitte/futurlang) — a proof-oriented programming language.
 
 ## Install
 
 ```bash
-brew tap WenitteApiou/futurlang
+brew tap wenitte/futurlang-
 brew install futurlang
 ```
 
